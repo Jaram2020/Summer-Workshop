@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  jaram_bot:
+    build: ../../Bot
+    image: discord-bot-py-jaram
+    restart: always
